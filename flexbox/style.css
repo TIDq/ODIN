@@ -2,6 +2,7 @@ html,
 body {
   background-color: #ffeead;
   margin: 10px;
+  height: 100%;
 }
 
 .container > div {
@@ -15,6 +16,8 @@ body {
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
+    height: 100%;
+    align-items: center;
 }
   
 .container > div:nth-child(1) {
@@ -33,6 +36,10 @@ body {
     background-color: #ff6f69;
   }
 
-.container > .home {
-    flex: 1;
+.logout {
+  align-self: flex-start;
+}
+
+.home {
+  align-self: flex-end;
 }
