@@ -45,7 +45,7 @@ button {
 
 .hero {
   background-color: #d2a83e;
-  height: 40vh;
+  
 }
 
 .hero-container {
@@ -85,14 +85,23 @@ button {
     padding-right: 15px;
 }
 
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 79px;
     background-color: #d2a83e;
+    color: white;
 }
 
-.footer-text {
-    color: white;
+.container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BA9F33;
 }
