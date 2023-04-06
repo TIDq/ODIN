@@ -84,3 +84,15 @@ button {
 .right-links {
     padding-right: 15px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 79px;
+    background-color: #d2a83e;
+}
+
+.footer-text {
+    color: white;
+}
