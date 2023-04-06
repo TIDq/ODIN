@@ -1,0 +1,86 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+img {
+  width: 75px;
+}
+
+button {
+  padding: 8px;
+  border-radius: 0.5rem;
+  background-color: lightgreen;
+  width: 25%;
+}
+
+.hero-button button {
+  font-weight: bolder;
+  font-size: medium;
+  border: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+
+.hero {
+  background-color: #d2a83e;
+  height: 40vh;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero-image img {
+  width: 300px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: white;
+  font-weight: bolder;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.left-logo {
+    padding-left: 15px;
+}
+
+.right-links {
+    padding-right: 15px;
+}
