@@ -4,7 +4,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
   margin: 0;
   overflow: hidden;
 }
@@ -45,7 +44,7 @@ button {
 
 .hero {
   background-color: #d2a83e;
-  
+  height: 45vh;
 }
 
 .hero-container {
